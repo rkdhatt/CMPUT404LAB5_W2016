@@ -5,9 +5,9 @@ a {
 }
 
 h1 {
-    color: #9933CC;
+    webkit-tap-highlight-color: #9933CC;
     border: 1px solid #9933CC;
     border-style: dotted;
-    width: 280px;
+    width: 600px;
     text-align: center;
 }

@@ -3,16 +3,41 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>CMPUT 404 - Lab 5 Poll Questions</title>
+    <title>CMPUT 404 - Lab 5</title>
     <link href="{% static 'css/base.css' %}" rel="stylesheet"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<nav>
-    <h1 class="purple">CMPUT 404 - Lab 5</h1>
-    <p><a href="{% url 'polls:index' %}">All Questions</a></p>
-</nav>
+
 <body>
-{% block body %}
-{% endblock %}
+
 <script src="{% static 'js/base.js' %}"></script>
+
+<ul class="nav nav-tabs">
+	<li><a href="#">Primary</a></li>
+	<li class="active"><a href="#">Social</a></li>
+	<li><a href="#">Promotions</a></li>
+	<li><a href="#">Updates</a></li>
+</ul>
+
+<div class="row">
+
+	<div class="col-md-8">
+		<h4>Contentfrom bootstrap</h4>
+		<nav>
+    		<h1 class="purple">CMPUT 404 - Lab 5 Poll Questions</h1>
+    		<p><a href="{% url 'polls:index' %}">All Questions</a></p>
+		{% block body %}
+		{% endblock %}
+</nav>
+	</div>
+</div>
+
 </body>
 </html>

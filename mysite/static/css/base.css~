@@ -1,13 +1,13 @@
 a {
     color: rgb(0, 0, 255);
     font-style: italic;
-    font: "Times New Roman", Times, serif;
+    font: "Open Sans", sans-serif;
 }
 
 h1 {
     color: #9933CC;
     border: 1px solid #9933CC;
     border-style: dotted;
-    width: 280px;
+    width: 600px;
     text-align: center;
 }
