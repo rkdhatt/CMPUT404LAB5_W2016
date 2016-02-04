@@ -3,12 +3,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>CMPUT 404 - Lab 5</title>
-    <p>Test title here.</p>
+    <title>CMPUT 404 - Lab 5 Poll Questions</title>
     <link href="{% static 'css/base.css' %}" rel="stylesheet"/>
 </head>
 <nav>
-    <h1>CMPUT 404 - Lab 5</h1>
+    <h1 class="purple">CMPUT 404 - Lab 5</h1>
     <p><a href="{% url 'polls:index' %}">All Questions</a></p>
 </nav>
 <body>
